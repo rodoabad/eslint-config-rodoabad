@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-rodoabad",
+  "description": "My personal linting rules courtesy of ESLint",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodoabad/eslint-config-rodoabad.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "reusable-ui",
+    "reusable",
+    "ui"
+  ],
+  "author": "Rodo Abad <rodoabad@gmail.com> (https://github.com/rodoabad)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodoabad/eslint-config-rodoabad/issues"
+  },
+  "homepage": "https://github.com/rodoabad/eslint-config-rodoabad#readme",
+  "engines": {
+    "node": ">=6.x"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test",
+      "commit-msg": "validate-commit-msg"
+    }
+  },
+  "dependencies": {
+    "eslint-plugin-react": "5.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.0.4",
+    "eslint": "2.10.2",
+    "ghooks": "1.2.1",
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "2.6.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "6.x",
+    "eslint": "2.x",
+    "eslint-plugin-react": "5.x"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "eslint lib/**"
+  }
+}
