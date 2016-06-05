@@ -36,9 +36,9 @@
   },
   "devDependencies": {
     "babel-eslint": "6.0.4",
-    "eslint": "2.10.2",
+    "eslint": "2.11.1",
     "ghooks": "1.2.1",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "4.3.5",
     "validate-commit-msg": "2.6.1"
   },
   "peerDependencies": {
