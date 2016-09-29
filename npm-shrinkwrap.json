@@ -437,6 +437,11 @@
       "from": "escope@>=3.6.0 <4.0.0",
       "resolved": "https://registry.npmjs.org/escope/-/escope-3.6.0.tgz"
     },
+    "eslint-plugin-babel": {
+      "version": "3.3.0",
+      "from": "eslint-plugin-babel@latest",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-babel/-/eslint-plugin-babel-3.3.0.tgz"
+    },
     "eslint-plugin-react": {
       "version": "5.2.2",
       "from": "eslint-plugin-react@5.2.2",
