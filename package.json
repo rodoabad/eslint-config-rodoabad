@@ -44,9 +44,9 @@
     "validate-commit-msg": "2.8.2"
   },
   "peerDependencies": {
-    "babel-eslint": "6.x",
+    "babel-eslint": "7.x",
     "eslint": "3.x",
-    "eslint-plugin-react": "5.x"
+    "eslint-plugin-react": "6.x"
   },
   "scripts": {
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
