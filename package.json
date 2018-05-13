@@ -44,7 +44,6 @@
   },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "precommitmsg": "npm run test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "eslint lib/**"
   }
