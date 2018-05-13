@@ -23,12 +23,6 @@
   "engines": {
     "node": ">=8"
   },
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run test",
-      "commit-msg": "validate-commit-msg"
-    }
-  },
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "eslint-plugin-babel": "^5.1.0",
@@ -36,10 +30,11 @@
     "eslint-plugin-sorting": "^0.3.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^6.2.0",
+    "@commitlint/config-conventional": "^6.1.3",
     "eslint": "^4.19.1",
-    "ghooks": "1.3.2",
-    "semantic-release": "4.3.5",
-    "validate-commit-msg": "2.8.2"
+    "husky": "^0.14.3",
+    "semantic-release": "^15.4.1"
   },
   "peerDependencies": {
     "babel-eslint": "8.2.x",
@@ -48,6 +43,8 @@
     "eslint-plugin-sorting": "0.3.x"
   },
   "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "precommitmsg": "npm run test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "eslint lib/**"
   }
