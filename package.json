@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/rodoabad/eslint-config-rodoabad#readme",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "publishConfig": {
     "access": "public"
