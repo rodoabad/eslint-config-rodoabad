@@ -23,6 +23,9 @@
   "engines": {
     "node": ">=8"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "babel-eslint": "^8.2.6",
     "eslint-plugin-babel": "^5.1.0",
