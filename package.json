@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-rodoabad",
+  "name": "@rodoabad/eslint-config",
   "description": "My personal linting rules courtesy of ESLint",
   "main": "./lib/index.js",
   "files": [
