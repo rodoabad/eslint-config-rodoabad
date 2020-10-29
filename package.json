@@ -20,9 +20,6 @@
     "url": "https://github.com/rodoabad/eslint-config-rodoabad/issues"
   },
   "homepage": "https://github.com/rodoabad/eslint-config-rodoabad#readme",
-  "engines": {
-    "node": ">=10"
-  },
   "publishConfig": {
     "access": "public"
   },
