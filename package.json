@@ -30,11 +30,11 @@
     "eslint-plugin-sorting": "^0.4.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^11.0.0",
     "eslint": "7.12.1",
-    "husky": "^4.3.0",
-    "semantic-release": "^17.2.3"
+    "husky": "^8.0.3",
+    "semantic-release": "^21.0.1"
   },
   "peerDependencies": {
     "eslint": "^7.12.1"
