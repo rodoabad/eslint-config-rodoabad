@@ -1,5 +1,4 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-rodoabad.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-rodoabad)
-[![Travis](https://img.shields.io/travis/rodoabad/eslint-config-rodoabad.svg?style=flat-square)](https://travis-ci.org/rodoabad/eslint-config-rodoabad)
 
 # My personal linting rules courtesy of ESLint
 
