@@ -40,6 +40,6 @@
     "eslint": "^7.12.1"
   },
   "scripts": {
-    "test": "eslint lib/**"
+    "verify": "eslint lib/**"
   }
 }
