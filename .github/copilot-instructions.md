@@ -2,9 +2,6 @@
 
 This repository contains ESLint configuration rules. When working with this codebase, please keep in mind:
 
-## npm
-- Use `npm ci` when installing packages
-
 ## Code Style
 - Follow semantic commit messages (e.g., `feat:`, `fix:`, `chore:`, etc.)
 - Enforce `.editorconfig` rules
