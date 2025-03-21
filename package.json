@@ -38,6 +38,8 @@
     "eslint": "^8.0.0"
   },
   "scripts": {
-    "verify": "eslint lib/**"
+    "verify": "eslint lib/**",
+    "prepare": "husky",
+    "postinstall": "husky"
   }
 }
