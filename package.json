@@ -24,19 +24,18 @@
     "access": "public"
   },
   "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-react": "^7.21.5",
+    "@babel/eslint-parser": "^7.23.3",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-sorting": "^0.4.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
-    "eslint": "^7.12.1",
-    "husky": "^4.3.0"
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "eslint": "^8.56.0",
+    "husky": "^9.0.6"
   },
   "peerDependencies": {
-    "eslint": "^7.12.1"
+    "eslint": "^8.0.0"
   },
   "scripts": {
     "verify": "eslint lib/**"
